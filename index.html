@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasl List</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header__title">task list</h1>
+    </header>
+    <main class="main">
+      <div class="task-management">
+        <form id="form" action="#" class="task-management__form">
+          <input type="text" name="text" placeholder="Enter text..." class="task-management__input">
+          <button type="submit" class="task-management__add-task button">Add text</button>
+        </form>
+        <div class="task-management__button">
+          <button class="task-management__remove-all button">Remove all</button>
+          <button class="task-management__ready-all button">Ready all</button>
+          <input type="checkbox" name="db" id="db" class="task-management__checkbox">
+          <label for="db" class="button task-management__db"></label>
+        </div>
+      </div>
+      <div class="task-list">
+        <ul class="task-list__list">
+
+        </ul>
+      </div>
+    </main>
+  </div>
+
+
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
