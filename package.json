@@ -1,0 +1,22 @@
+{
+  "name": "task-list",
+  "version": "1.0.0",
+  "description": "Тестовое задание для Q-Digital",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "server": "json-server --watch ./data.json"
+  },
+  "author": "Urakova Anna <gram_anna@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "parcel-bundler": "^1.12.5",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
